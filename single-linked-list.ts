@@ -21,6 +21,9 @@ s3.insertAtEnd(2);
 s3.insertAtStart(3);
 s3.insertAtEnd(4);
 s3.insertAtStart(5);
+s3.insertAtPosition(7, 0);
+s3.insertAtPosition(8, 6);
+s3.insertAtPosition(9, 2);
 
 console.log("S1: ");
 s1.traverse(); // 5 4 3 2 1
